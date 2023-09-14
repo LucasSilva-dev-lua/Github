@@ -23,51 +23,50 @@
   <h4>Estrutura básica</h4>
   <p>A estrutura básica do HTML5 foi mantida, sofrendo uma pequena alteração no DOCTYPE. Abaixo podemos ver no exemplo:</p>
   <p><code>Listagem 1: Estrutura básica</code></p>
-  <pre>
-    <!DOCTYPE HTML>
-    <html lang=”pt-br”>
-    <head>
-      <meta charset=”UTF-8”>
-      <title></title>
-    </head>
-    <body>
-    </body>
-    </html>
-  </pre>
+
+  <!DOCTYPE HTML>
+  <html lang=”pt-br”>
+  <head>
+    <meta charset=”UTF-8”>
+    <title></title>
+  </head>
+  <body>
+  </body>
+  </html>
+
+  <h4>O DOCTYPE</h4>
+  <p>Listagem 2: O DOCTYPE.</p>
+  <code><!DOCTYPE HTML></code>
+  <p>Embora o DOCTYPE não seja uma tag HTML, ela deve ser a primeira linha antes do código, pois se tratar de uma instrução que indica ao navegador ou outro meio qual a versão de marcação o código foi escrito.</p>
+
+  <p>Em versões anteriores, era necessário referenciar o DTD (Document Type Definition) diretamente no código DOCTYPE. Com o HTML5, essa referência fica por responsabilidade do próprio navegador.</p>
+
+  <h4>Elemento HTML</h4>
+  <p>Listagem 3: Elemento HTML.</p>
+  <code><html lang=”pt-br”></html></code>
+  <p>Agora começamos a marcação propriamente dita. Para exemplificar, pense no código HTML como uma árvore, onde existem elementos pais ou filhos, e sempre, o elemento vai estar no topo dessa árvore, sendo assim, o elemento mais importante.</p>
+
+  <p>Creio que foi notada a presença de um atributo no elemento . O “lang” é necessário para que os user-agents saibam qual é a linguagem principal do documento.É necessário lembrar que, o atributo “lang”, não está restrito somente ao elemento , podendo ser utilizado em qualquer outro elemento indicando a linguagem do texto representado.</p>
+
+  <h4>HEAD</h4>
+  <p>Este é o local onde fica a “parte inteligente” do web site. No HEAD, ficam os metadados, ou seja, informações sobre a página e sobre o conteúdo publicado.</p>
+
+  <h4>Metatag Charset</h4>
+  <p>Listagem 4: Metatag Charset</p>
+
+  <code><meta charset=”UTF-8”></code>
+  <p>Este item chaveia a tabela de caracteres que vai ser utilizada pelo seu sistema.</p>
+
+  <p>Cabe aqui uma explicação importante, bastante útil aos desenvolvedores e futuros desenvolvedores. A internet, por tradição, foi desenvolvida sob princípios de que não haveria limites para acesso, sendo assim, não importa se alguém estiver aqui no Brasil ou lá na China, ela pode acessar qualquer conteúdo disponível na web.</p>
+
+  <p>Partindo desse princípio, foi criada uma tabela que suprisse essas necessidades, que recebeu o nome de Unicode. Essa tabela comporta algo em torno de um milhão de caracteres e a maioria dos browsers a suporta plenamente. Ao invés de cada região ter a sua tabela de caracteres, é muito mais sensato ter uma tabela com o maior número de caracteres possível, e fazendo uso dela no seu sistema, você garantirá que ele será bem visualizado no Brasil, China ou em qualquer outro lugar do mundo.</p>
+
+  <p>O que o Unicode faz é fornecer um único número para cada caractere, não importa a plataforma, nem o programa, nem a língua.</p>
+
+  <p>Aqui está só o início, um pouco para nós possamos entender o HTML5, e claro, começar a fazer uso dessa linguagem de marcação. Em outras oportunidades, daremos continuidade, falando mais das novidades e já desenvolvendo na prática.</p>
+
+  <p>Com isso, finalizo este artigo e até o próximo.</p>
+
+  <p>Um abraço!</p>
 </body>
 </html>
-
-O DOCTYPE
-Listagem 2: O DOCTYPE.
-<!DOCTYPE HTML>
-Embora o DOCTYPE não seja uma tag HTML, ela deve ser a primeira linha antes do código, pois se tratar de uma instrução que indica ao navegador ou outro meio qual a versão de marcação o código foi escrito.
-
-Em versões anteriores, era necessário referenciar o DTD (Document Type Definition) diretamente no código DOCTYPE. Com o HTML5, essa referência fica por responsabilidade do próprio navegador.
-
-Elemento HTML
-Listagem 3: Elemento HTML.
-<html lang=”pt-br”>
-Agora começamos a marcação propriamente dita. Para exemplificar, pense no código HTML como uma árvore, onde existem elementos pais ou filhos, e sempre, o elemento vai estar no topo dessa árvore, sendo assim, o elemento mais importante.
-
-Creio que foi notada a presença de um atributo no elemento . O “lang” é necessário para que os user-agents saibam qual é a linguagem principal do documento.É necessário lembrar que, o atributo “lang”, não está restrito somente ao elemento , podendo ser utilizado em qualquer outro elemento indicando a linguagem do texto representado.
-
-HEAD
-Este é o local onde fica a “parte inteligente” do web site. No HEAD, ficam os metadados, ou seja, informações sobre a página e sobre o conteúdo publicado.
-
-Metatag Charset
-Listagem 4: Metatag Charset
-
-<meta charset=”UTF-8”>
-Este item chaveia a tabela de caracteres que vai ser utilizada pelo seu sistema.
-
-Cabe aqui uma explicação importante, bastante útil aos desenvolvedores e futuros desenvolvedores. A internet, por tradição, foi desenvolvida sob princípios de que não haveria limites para acesso, sendo assim, não importa se alguém estiver aqui no Brasil ou lá na China, ela pode acessar qualquer conteúdo disponível na web.
-
-Partindo desse princípio, foi criada uma tabela que suprisse essas necessidades, que recebeu o nome de Unicode. Essa tabela comporta algo em torno de um milhão de caracteres e a maioria dos browsers a suporta plenamente. Ao invés de cada região ter a sua tabela de caracteres, é muito mais sensato ter uma tabela com o maior número de caracteres possível, e fazendo uso dela no seu sistema, você garantirá que ele será bem visualizado no Brasil, China ou em qualquer outro lugar do mundo.
-
-O que o Unicode faz é fornecer um único número para cada caractere, não importa a plataforma, nem o programa, nem a língua.
-
-Aqui está só o início, um pouco para nós possamos entender o HTML5, e claro, começar a fazer uso dessa linguagem de marcação. Em outras oportunidades, daremos continuidade, falando mais das novidades e já desenvolvendo na prática.
-
-Com isso, finalizo este artigo e até o próximo.
-
-Um abraço!
